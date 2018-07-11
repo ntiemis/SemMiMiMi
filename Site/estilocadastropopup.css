@@ -1,0 +1,91 @@
+body {
+    background-color: transparent;
+    color: white;
+    font: 15px avenirltstd;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+section {
+    position: relative;
+    display: block;
+    width: 30%;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: white;
+    font: 12px avenirltstd;
+    border-radius: 20px;
+}
+
+#caixacadastro {
+    position: relative;
+    display: block;
+    justify-content: center;
+    font: 12px avenirltstd;
+    max-width: 80%;
+    padding: 10px 30px;
+    margin: 5% auto 30px;
+}
+
+
+#caixacadastro > h2{
+    text-align: center;
+    justify-content: center;
+    font: 20px avenirltstd;
+    margin: 5px auto;
+    color: gray;
+}
+
+#caixacadastro > h3{
+    text-align: left;
+    justify-content: center;
+    font: 15px avenirltstd;
+    color: black;
+    margin: 20px 0 5px 0;
+}
+
+
+#caixacadastro > input{
+    text-align: left;
+    justify-content: center;
+    font: 15px avenirltstd;
+    color: black;
+    border-radius: 20px;
+    border: solid 1px gray;
+    width: 100%;
+}
+
+#caixacadastro > button{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font: 15px avenirltstd;
+    background-color: #E8980C;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    margin:20px 35%;   
+    width: 30%;
+}
+
+#fotos{
+    justify-content: space-around;
+}
+
+#fotos > img {
+    max-width: 30%; 
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font: 15px avenirltstd;
+}
+
+@font-face {
+    font-family: avenirltstd;
+    src: url('fonts/AvenirLTStd-Book.otf');
+};
