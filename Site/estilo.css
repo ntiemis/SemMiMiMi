@@ -41,14 +41,12 @@ header {
    border-radius: 30px;
    width: 30%;
    height: 25px;
-   margin: 10px;
+   margin:  5% 5% 0 30%;
    border: 0;
    color: gray;
    background-color: white;
    font: 12px avenirltstd;
    display: block;
-
-
 }
 
 #logotipo {
@@ -214,6 +212,12 @@ footer{
     height: 40px;
     justify-content: center;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font: 15px avenirltstd;
 }
 
 footer>p{

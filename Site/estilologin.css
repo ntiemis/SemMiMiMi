@@ -1,0 +1,145 @@
+body {
+    background-color: #8A69D4;
+    color: white;
+    font: 15px avenirltstd;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#brancoespaco {
+    width: 35%;
+}
+
+#logoespaco {
+    margin: auto;
+    justify-content: center;
+    width: 30%;
+}
+
+#loginespaco {
+    width: 35%;
+    height: 100%;
+    display: block;
+    justify-content: right;
+    margin: 0 0 auto auto;
+}
+
+#loginespaco > button{
+   border-radius: 30px;
+   width: 30%;
+   height: 25px;
+   margin:  5% 10% 0 55%;
+   border: solid 1px white;
+   color: white;
+   background-color: transparent;
+   font: 12px avenirltstd;
+}
+
+#logotipo {
+    width: 100%;
+    margin: 30px auto;
+}
+
+section {
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    font: 12px avenirltstd;
+    border-radius: 20px;
+    max-width: 30%;
+}
+
+#caixalogin {
+    position: relative;
+    display: block;
+    justify-content: center;
+    font: 12px avenirltstd;
+    max-width: 90%;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+
+#caixalogin > h2{
+    text-align: center;
+    justify-content: center;
+    font: 20px avenirltstd;
+    margin: 5px auto;
+    color: gray;
+}
+
+#caixalogin > h3{
+    text-align: left;
+    justify-content: center;
+    font: 15px avenirltstd;
+    color: black;
+    margin: 20px 0 5px 0;
+}
+
+
+#caixalogin > input{
+    text-align: left;
+    justify-content: center;
+    font: 15px avenirltstd;
+    color: black;
+    border-radius: 20px;
+    border: solid 1px gray;
+    width: 100%;
+}
+
+#caixalogin > button{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font: 15px avenirltstd;
+    background-color: #E8980C;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    margin:20px 35%;   
+    width: 30%;
+}
+
+#caixalogin > #h2menor{
+    text-align: center;
+    justify-content: center;
+    font: 15px avenirltstd;
+    color: gray;
+}
+
+#imagens{
+    text-align: center;
+    justify-content: center;
+    font: 15px avenirltstd;
+    max-width: 100%;
+    margin: auto;
+}
+
+#imagens > img{
+    text-align: center;
+    justify-content: center;
+    font: 15px avenirltstd;
+    max-width: 30px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font: 15px avenirltstd;
+}
+
+@font-face {
+    font-family: avenirltstd;
+    src: url('fonts/AvenirLTStd-Book.otf');
+};
