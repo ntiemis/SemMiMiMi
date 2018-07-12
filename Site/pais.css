@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    background-color: rgb(212, 212, 212);
+}
+
+.primeira{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 202, 252);
+    height: 100px;
+}
+
+#gato{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#titulo{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.segunda{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    height: auto; 
+    width: auto; 
+    max-width: 60px; 
+    max-height: 60px;
+}
+
+#quadro{
+    
+    background-color:#6f2086;
+    border-radius: 30px;
+    height: 300px;
+    width: 600px;
+    color: white;
+}
+
+#textoagenda{
+    text-align: center;
+}
+
+#mais{
+    margin-top: 16px;
+    margin-left: 400px;
+    max-width: 25px; 
+    max-height: 25px;
+}
+
+aside {
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(-230px);
+    transition: 1.2s;
+    box-shadow: 0 10px;
+}
+
+aside h1{
+    margin-top: 120px;
+}
+
+#head{
+    background-color: white;
+    width: 300px;
+    display: flex;
+    font-family: avenir;
+    color:black;
+}
+
+#botoes{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    align-items: flex-end;
+    margin-left: 5px;
+    height: 30px;
+}
+
+#hamburger{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.tracinho{
+    z-index: 1;
+    background-color: black;
+    border-radius: 25%;
+    height: 3px;
+    margin-top: 5px;
+    transition: 1.2s;
+}
+
+aside.active{
+    transform: translateX(0);
+    transition: 1.2s;
+}
+
+#hamburger.active .tracinho:nth-child(1){
+    transform: rotate(45deg) translate(5px, 6px);
+}
+
+#hamburger.active .tracinho:nth-child(2){
+    display: none;
+}
+
+#hamburger.active .tracinho:nth-child(3){
+    transform: rotate(-45deg);
+}
