@@ -24,7 +24,11 @@ header {
 #brancoespaco {
     width: 35%;
 }
-
+#gato{
+    height: 16vw;
+    width: 20vw;
+    margin-left: 5vw;
+}
 #logoespaco {
     width: 30%;
 }
@@ -98,7 +102,7 @@ header {
 #celular {
     width: 50%;
     margin-bottom: 0;
-    margin: 0 20px;
+    margin: -50px 2px -7px 20px;
     display: none;
 }
 
