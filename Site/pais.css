@@ -14,6 +14,8 @@ body{
 #gato{
     margin-right: 30px;
     margin-top: 20px;
+    height: 70px;
+    width: 86px;
 }
 
 #titulo{
@@ -32,7 +34,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+.linkimagem{
     height: auto; 
     width: auto; 
     max-width: 60px; 
@@ -43,20 +45,78 @@ img{
     
     background-color:#6f2086;
     border-radius: 30px;
-    height: 300px;
+    color:black;
+    height:293px;
     width: 600px;
-    color: white;
+    
 }
 
 #textoagenda{
     text-align: center;
+    margin:9px;
+    margin-left: 216px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: -1em;
+    -webkit-margin-start: 227px;
+    -webkit-margin-end: 5px;
+    color: #ffffff;
 }
 
 #mais{
     margin-top: 16px;
-    margin-left: 400px;
+    margin-left: 198px;
     max-width: 25px; 
     max-height: 25px;
+}
+
+ul{
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: black;
+    height: 236px;
+    width: 560px;
+    list-style-type: none;
+}
+
+ul > li > p  {
+    display: -webkit-inline-box;
+    position:relative;
+}
+
+ul> li > button {
+    background-color:lightblue;
+    border-radius: 30px;
+    width: 109px;
+    height: 41px;
+}
+#relatoriodiario{
+    background-color:rgb(127, 202, 252);
+    border-radius: 30px;
+    height: 139px;
+    width: 600px;
+    color: white;
+
+}
+#relatoriodiario > button  {
+    display: -webkit-inline-box;
+    position:relative;
+
+}
+
+#lista-relatorio-d {
+    height: 108px;
+    width: 559px;
+    border-radius: 34px;
+}
+
+#quadrotop{
+    display: flex;
+}
+
+
+
+.itemtarefa{
+    display: inline-block;
 }
 
 aside {
@@ -129,4 +189,10 @@ aside.active{
 
 #hamburger.active .tracinho:nth-child(3){
     transform: rotate(-45deg);
+}
+
+h1>span{
+    height: 6px;
+    width: 153px;
+    background-color: black;
 }

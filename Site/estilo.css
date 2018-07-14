@@ -87,7 +87,7 @@ header {
     margin: auto;    
     justify-content: center;
 }
-#download > img{
+#download > a > img{
     margin: auto;
     max-width: 35%;
     position: relative;
