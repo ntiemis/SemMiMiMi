@@ -19,7 +19,7 @@ function fazerCadastro() {
     }).then(dados => {
         // Digite aqui o que fazer com os dados.
         alert("Cadastrou");
-        window.location.assign ("file:///C:/Users/carol/Desktop/SemMiMiMi/Site/pais.html")
+        window.location.assign ("/pais.html")
     }).catch (() => {
         alert ("Não cadastrou")
     });
