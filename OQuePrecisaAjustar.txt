@@ -1,0 +1,21 @@
+﻿-adicionar excluir tarefa 
+-mostrar agenda para ver outros dias
+-fazer mockup do celular correto da home
+-escrever sobre a mimi na home
+-imagem de download do app home precisa diminuir
+-logo do google plus login e cadastro ajustar tamanho
+-Alterar imagens do criar nova tarefa
+-Mudar imagens do avatar para escolher
+-Imprimir Agenda
+-colocar imagem da mimi na página de recompensas
+-Destacar 'Nivel 1' na pagina de recompensas
+-Colocar relatório quando for exportar o relatório
+-Editar agenda
+
+
+  
+SITE PRÉVIA:
+-Ajustar Agenda do dia
+-Repetir (Colocar em funcionamento)
+-Trocar perfil colcoar imagem certa.
+-Adicionar tarefas diárias.

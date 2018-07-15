@@ -21,6 +21,12 @@ body{
     width: 8%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    font: 15px avenirltstd;
+}
+
 #titulo{
     margin-top: 40px;
     text-align: center;
@@ -62,6 +68,10 @@ h3{
     display: flex;
 }
 
+#paislink {
+    color: black;
+}
+
 #textoagenda{
     text-align: center;
     margin: 10px 0px 10px 20px;
@@ -72,8 +82,8 @@ h3{
 }
 
 #mais{
-    width: 10%;
-    margin:auto 20px auto 0px;
+    width: 50%;
+    margin:10px 20px auto 0px;
     max-width: 25px; 
     max-height: 25px;
     font: 15px avenirltstd;

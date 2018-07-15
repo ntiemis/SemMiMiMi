@@ -1,5 +1,5 @@
 body {
-    background-color: transparent;
+    background-color: #8A69D4;
     color: white;
     font: 15px avenirltstd;
     width: 100%;
@@ -8,23 +8,54 @@ body {
     justify-content: center;
 }
 
-section {
-    position: relative;
-    display: block;
-    width: 30%;
+
+header {
+    display: flex;
     justify-content: center;
-    margin: 20px auto;
-    background-color: white;
-    font: 12px avenirltstd;
-    border-radius: 20px;
+}
+
+#brancoespaco {
+    width: 35%;
+}
+
+#logoespaco {
+    margin: auto;
+    justify-content: center;
+    width: 30%;
+}
+
+#loginespaco {
+    width: 35%;
+    height: 100%;
+    display: block;
+    justify-content: right;
+    margin: 0 0 auto auto;
+}
+
+#loginespaco > button{
+   border-radius: 30px;
+   width: 30%;
+   height: 25px;
+   margin:  5% 10% 0 55%;
+   border: solid 1px white;
+   color: white;
+   background-color: transparent;
+   font: 12px avenirltstd;
+}
+
+#logotipo {
+    width: 100%;
+    margin: 30px auto;
 }
 
 #caixacadastro {
     position: relative;
     display: block;
+    background-color: white;
     justify-content: center;
     font: 12px avenirltstd;
-    max-width: 80%;
+    border-radius: 15px;
+    max-width: 40%;
     padding: 10px 30px;
     margin: 5% auto 30px;
 }
