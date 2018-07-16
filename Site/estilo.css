@@ -8,7 +8,8 @@ body {
 }
 
 .linkimagem {
-    width: 35%;
+    width: 45%;
+    position: relative;
 }
 
 .roxo {
@@ -86,11 +87,10 @@ input {
 
 #sessaotop {
     width: 100%;
-    max-height: 50%;
+    max-height: 40%;
     background-color: #8A69D4;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 10% 0 0 0;
     border-top: solid 4px #E8980C;
 }
@@ -101,7 +101,7 @@ input {
     font: 12px avenirltstd;
     color: white;
     text-align: justify;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     font-size: 20px;
 }
@@ -117,26 +117,27 @@ input {
 }
 
 #download {
-    height: 35%;
+    height: 25%;
+    text-align: center;
     justify-content: center;
     position: relative;
     border-bottom: 0;
-    margin: auto;    
+    margin: 50px auto 20px;    
     display: flex;
 }
 
 .download {
-    height: 20%;
+    width: 55%;
     justify-content: center;
     position: relative;
     border-bottom: 0;
-    margin: 10px 10px 0;    
+    margin: 10px auto;    
     justify-content: center;
 }
 
 #celular {
-    width: 50%;
-    margin: -150px auto 0;
+    width: 40%;
+    margin: -180px auto 0;
     display: none;
 }
 
@@ -145,7 +146,7 @@ input {
     position: relative;
     background-color: white;
     margin: 10% 0 3% 0;
-    padding: 30px 90px 30px 30px;
+    padding: 3% 10%;
     text-align: justify;
     font: 15px avenirltstd;
 }
@@ -164,7 +165,7 @@ input {
 }
 
 #instrucoes > p {
-    margin-left: 60px;
+    margin-left: 5%;
     margin-top: 30px;
     font-size: 18px;
 }
