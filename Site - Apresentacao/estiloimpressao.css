@@ -1,0 +1,26 @@
+.borda {
+    border: solid 2px #8A69D4;
+    width: 165px;
+    height: 165px;
+    border-radius: 15px;
+    padding: auto;
+    text-align: center;
+    margin: 20px auto;
+    font: 15px avenirltstd;
+}
+
+img {
+    width: 100px;
+    margin: 10px auto 0;
+    font: 15px avenirltstd;
+}
+p{
+    font: 15px avenirltstd;
+    margin: 5px;
+}
+
+
+@font-face {
+    font-family: avenirltstd;
+    src: url('fonts/AvenirLTStd-Book.otf');
+};

@@ -1,0 +1,133 @@
+body {
+    background-color: #8A69D4;
+    color: white;
+    font: 15px avenirltstd;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#brancoespaco {
+    width: 35%;
+}
+
+#logoespaco {
+    margin: auto;
+    justify-content: center;
+    width: 30%;
+}
+
+#loginespaco {
+    width: 35%;
+    height: 100%;
+    display: block;
+    justify-content: right;
+    margin: 0 0 auto auto;
+}
+
+#loginespaco > button{
+   border-radius: 30px;
+   width: 30%;
+   height: 25px;
+   margin:  5% 10% 0 55%;
+   border: solid 1px white;
+   color: white;
+   background-color: transparent;
+   font: 12px avenirltstd;
+}
+
+#sair {
+    border-radius: 30px;
+    width: 30%;
+    height: 25px;
+    margin:  5% 10% 0 55%;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    font: 12px avenirltstd;
+ }
+
+#logotipo {
+    width: 100%;
+    margin: 30px auto;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font: 12px avenirltstd;
+    max-width: 90%;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    font: 20px avenirltstd;
+    margin: 5px auto;
+    color: gray;
+}
+
+h3{
+    text-align: left;
+    justify-content: center;
+    font: 15px avenirltstd;
+    color: black;
+    margin: 20px 0 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font: 15px avenirltstd;
+}
+
+#perfil1 {
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#perfil1 > img{
+    position: relative;
+    max-width: 30%;
+}
+
+#perfil1 > h2{
+    position: relative;
+    max-width: 80%;
+    color: white;
+}
+
+#adicionar {
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+#quadrado {
+    border: solid 5px white;
+    border-radius: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#quadrado > img{
+    position: relative;
+    max-width: 30%;
+    margin: 35%;
+}
+
+@font-face {
+    font-family: avenirltstd;
+    src: url('fonts/AvenirLTStd-Book.otf');
+};

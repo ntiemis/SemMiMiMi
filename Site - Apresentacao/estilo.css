@@ -1,0 +1,291 @@
+body {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    background-image: url('imagens/wallpaper-casa.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.linkimagem {
+    width: 35%;
+}
+
+.roxo {
+    width: 100%;
+    background-color: #8A69D4;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 50% 50%;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+}
+
+#brancoespaco {
+    width: 35%;
+}
+#gato{
+    height: 16vw;
+    width: 20vw;
+    margin-left: 5vw;
+}
+#logoespaco {
+    width: 30%;
+}
+
+#loginespaco {
+    width: 35%;
+    height: 100%;
+    display: block;
+    justify-content: left;
+    margin: 0 0 auto auto;
+}
+
+input {
+    padding: 0 15px;
+    text-align: left;
+    width: 100%;
+}
+
+#loginbotao{
+   border-radius: 30px;
+   width: 35%;
+   height: 25px;
+   margin:  5% 5% 0 40%;
+   border: 0;
+   color: gray;
+   background-color: white;
+   font: 12px avenirltstd;
+   display: block;
+}
+
+#cadastrobotao{
+    border-radius: 30px;
+    width: 35%;
+    height: 25px;
+    margin:  1% 5% 0 40%;
+    border: 0;
+    color: gray;
+    background-color: white;
+    font: 12px avenirltstd;
+    display: block;
+ }
+ 
+
+#logotipo {
+    width: 70%;
+    margin: 35px;
+    position: relative;
+}
+
+
+#sessaotop {
+    width: 100%;
+    max-height: 50%;
+    background-color: #8A69D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0 0 0;
+    border-top: solid 4px #E8980C;
+}
+
+#textotop {
+    width: 50%;
+    height: 50%;
+    font: 12px avenirltstd;
+    color: white;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    font-size: 20px;
+}
+
+#textotop > p {
+    width: 70%;
+    font: 12px avenirltstd;
+    color: white;
+    text-align: justify;
+    margin: 50px auto 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+#download {
+    height: 35%;
+    justify-content: center;
+    position: relative;
+    border-bottom: 0;
+    margin: auto;    
+    display: flex;
+}
+
+.download {
+    height: 20%;
+    justify-content: center;
+    position: relative;
+    border-bottom: 0;
+    margin: 10px 10px 0;    
+    justify-content: center;
+}
+
+#celular {
+    width: 50%;
+    margin: -150px auto 0;
+    display: none;
+}
+
+#instrucoes {
+    max-width: 100%;
+    position: relative;
+    background-color: white;
+    margin: 10% 0 3% 0;
+    padding: 30px 90px 30px 30px;
+    text-align: justify;
+    font: 15px avenirltstd;
+}
+
+#instrucoes > h2{
+    color: #8A69D4;
+    font-size: 30px;
+    margin: 40px 0 5px;
+}
+
+#instrucoes > hr {
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 50%;
+    border: solid 2px #B1FF0D;
+}
+
+#instrucoes > p {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#contato {
+    max-width: 100%;
+    padding: 40px 90px;
+    background-color: #8A69D4;
+    color: white;
+    font: 15px avenirltstd;
+}
+
+
+form{
+    display: block;
+    padding-left: 60px;
+    font-size: 18px;
+    max-width: 85%;
+}
+#contato > p {
+    margin-left: 60px;
+    max-width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+}
+#contato > h2{
+    color: white;
+    font-size: 30px;
+    margin: 30px 0 5px;
+}
+
+#contato > hr {
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 50%;
+    border: solid 2px #B1FF0D;
+}
+
+#nome>input{
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    height: 25px;
+    font: 15px avenirltstd;
+}
+
+#caixacontato>input{
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    border: 0;
+    font: 15px avenirltstd;
+}
+
+
+#email {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    font: 15px avenirltstd;
+    justify-content: space-between;
+}
+#email>div {
+    width: 47%;
+}
+#email>div>input {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    height: 25px;
+    font: 15px avenirltstd;
+}
+
+
+footer{
+    background-color: #73CFDA;
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font: 15px avenirltstd;
+}
+
+footer>p{
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font: 15px avenirltstd;
+}
+
+@font-face {
+    font-family: avenirltstd;
+    src: url('fonts/AvenirLTStd-Book.otf');
+};
+
+
+@media(min-width: 1024px){
+
+    #celular{
+        width: 30%;
+        height: 42%;
+        margin-bottom:0%;
+        display: block;
+        align-self: flex-end;        
+    }
+}
+
+@media(min-width: 768px){
+    #celular{
+        width: 30%;
+        display: block;
+        align-self: flex-end;
+    }
+    
+
+
