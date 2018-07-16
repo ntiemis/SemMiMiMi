@@ -7,6 +7,10 @@ body {
     background-size: 100%;
 }
 
+.linkimagem {
+    width: 35%;
+}
+
 .roxo {
     width: 100%;
     background-color: #8A69D4;
@@ -93,7 +97,7 @@ input {
 
 #textotop {
     width: 50%;
-    height: 100%;
+    height: 50%;
     font: 12px avenirltstd;
     color: white;
     text-align: justify;
@@ -102,28 +106,37 @@ input {
     font-size: 20px;
 }
 
+#textotop > p {
+    width: 70%;
+    font: 12px avenirltstd;
+    color: white;
+    text-align: justify;
+    margin: 50px auto 20px;
+    position: relative;
+    font-size: 20px;
+}
 
-/*fazer ficar responsivo*/
 #download {
-    height: 40%;
+    height: 35%;
     justify-content: center;
     position: relative;
     border-bottom: 0;
     margin: auto;    
-    justify-content: center;
-}
-#download > a > img{
-    margin: auto;
-    max-width: 35%;
-    position: relative;
-   
+    display: flex;
 }
 
-/*fazer celular ultrapassar a section*/
+.download {
+    height: 20%;
+    justify-content: center;
+    position: relative;
+    border-bottom: 0;
+    margin: 10px 10px 0;    
+    justify-content: center;
+}
+
 #celular {
     width: 50%;
-    margin-bottom: 0;
-    margin: -50px 2px -7px 20px;
+    margin: -150px auto 0;
     display: none;
 }
 
@@ -131,8 +144,8 @@ input {
     max-width: 100%;
     position: relative;
     background-color: white;
-    margin: 10% 0;
-    padding: 40px 90px;
+    margin: 10% 0 3% 0;
+    padding: 30px 90px 30px 30px;
     text-align: justify;
     font: 15px avenirltstd;
 }
@@ -155,8 +168,6 @@ input {
     margin-top: 30px;
     font-size: 18px;
 }
-
-/*ajustar espaçamento do placeholder do input à esquerda*/
 
 #contato {
     max-width: 100%;
