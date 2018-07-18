@@ -240,6 +240,30 @@ form{
     font: 15px avenirltstd;
 }
 
+#enviar{
+    background-color: #E8980C;
+    border-radius: 15px;
+    width: 10%;
+    height: 25px;
+    color: white;
+    font: 15px avenirltstd;
+    text-align: center;
+    margin: auto 10px 0 0;
+    border: solid 0;
+}
+
+#limpar{
+    background-color: white;
+    border-radius: 15px;
+    width: 10%;
+    height: 25px;
+    color: #E8980C;
+    font: 15px avenirltstd;
+    text-align: center;
+    margin:  auto 0 0 10px;
+    border: solid 0;
+}
+
 
 footer{
     background-color: #73CFDA;

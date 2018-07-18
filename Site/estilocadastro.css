@@ -125,7 +125,15 @@ section {
     margin: auto;
 }
 
-#imagens > img{
+#imagemface{
+    text-align: center;
+    justify-content: center;
+    font: 15px avenirltstd;
+    max-width: 30px;
+    margin: auto;
+}
+
+#imagemgoogle{
     text-align: center;
     justify-content: center;
     font: 15px avenirltstd;
