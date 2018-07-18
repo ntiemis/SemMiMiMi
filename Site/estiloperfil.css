@@ -97,12 +97,13 @@ a {
     color: white;
 }
 
-#perfil1 > img{
+#perfil1 > a > img{
     position: relative;
     max-width: 30%;
+    margin: auto;
 }
 
-#perfil1 > h2{
+#perfil1 > a > h2{
     position: relative;
     max-width: 80%;
     color: white;

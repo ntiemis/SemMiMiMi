@@ -71,6 +71,11 @@ h1{
     width: 50px;
 }
 
+.gatoescolha:hover {
+   background-color:  #8A69D4;
+   border-radius: 15px;
+}
+
 #crianca{
     width: 40%;
     font: 20px avenirltstd;
