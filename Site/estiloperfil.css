@@ -24,6 +24,17 @@ header {
     width: 30%;
 }
 
+button{
+    text-decoration: none;
+    color: white;
+    font: 15px avenirltstd;
+    border: solid 2px white;
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 30px auto;
+    width: 25%;
+}
+
 #loginespaco {
     width: 35%;
     height: 100%;

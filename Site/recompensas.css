@@ -18,7 +18,7 @@ body{
     margin-bottom: auto;
     margin-right: 20px;
     position: relative;
-    width: 8%;
+    width: 5%;
 }
 
 a{
@@ -158,6 +158,7 @@ h3{
 #quadradomimi > img{
     width: 90%;
     height: auto;
+    padding: 20px;
 }
 
 #emocao {
